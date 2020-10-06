@@ -1,0 +1,134 @@
+#nametag-container {
+    width: 753px;
+    height: 468px; 
+    margin: 50px auto 0;
+    border: 0px transparent solid;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    background-position: center;   
+    background-repeat: no-repeat;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f17cad+11,19eefc+78 */
+background: rgb(241,124,173); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(241,124,173) 11%, rgb(25,238,252) 78%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(241,124,173) 11%,rgb(25,238,252) 78%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(241,124,173) 11%,rgb(25,238,252) 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f17cad', endColorstr='#19eefc',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+#nametag-container:hover {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f4f47f+1,6074f2+99 */
+background: rgb(244,244,127); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(244,244,127) 1%, rgb(96,116,242) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(244,244,127) 1%,rgb(96,116,242) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(244,244,127) 1%,rgb(96,116,242) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f47f', endColorstr='#6074f2',GradientType=0 ); /* IE6-9 */
+
+    }
+
+#nametag-container:hover .circles-container span {
+    opacity: .5;
+    transform: translateY(20px);
+}
+
+
+h1,
+h2 {
+    color: #FFFFFF;
+    font-family: 'Copperplate';
+    font-weight: normal;
+    margin: -50;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 330px;
+}
+
+h1 span {
+    transform: rotate(-30deg);
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 100px;
+}
+
+h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Copperplate';
+    font-weight: normal;
+    margin: 0;
+    line-height: 149.2%;
+    font-size: 18px;
+    position: absolute;
+    top: -45px;
+    left: -180px
+}
+h4 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Copperplate';
+    font-weight: normal;
+    margin: 0;
+    line-height: 149.2%;
+    font-size: 18px;
+    position: absolute;
+    bottom: -20px;
+    right: -180px
+
+}
+h5 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Copperplate';
+    font-weight: normal;
+    margin: 0;
+    line-height: 149.2%;
+    font-size: 18px;
+    position: absolute;
+    bottom: -45px;
+    right: -180px
+}
+
+.vertically-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.circles-container {
+    text-align: center;
+    margin-top: 14px;
+}
+
+
+.circles-container span {
+    width: 339px;
+    height: 339px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 7px;
+    transition: all .5s ease-in;
+    background-size: 120%;
+    background-position: center center;
+    transition-delay: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffe607+1,ff7777+99 */
+background: rgb(255,230,7); /* Old browsers */
+background: -moz-linear-gradient(left,  rgb(255,230,7) 1%, rgb(255,119,119) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgb(255,230,7) 1%,rgb(255,119,119) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgb(255,230,7) 1%,rgb(255,119,119) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe607', endColorstr='#ff7777',GradientType=1 ); /* IE6-9 */
+
+}
+
+
