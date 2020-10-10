@@ -1,0 +1,83 @@
+body {background-image: url(../images/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+    width: 1000px;
+}
+
+#poem p{ 
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    font-size: 5vw;
+    font-family: 'papyrus';
+    font-weight: normal;
+}
+
+#poem p:hover{
+    font-size: 7vw;
+
+}
+
+.first-line {
+    color: aliceblue;
+    padding: 100px;
+    
+
+}
+
+.second-line {
+    color: black;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    cursor: pointer;
+}
+
+.second-line:hover {
+    background-image: url(../images/2.jpg);
+    background-size: 60%;
+    opacity: .5;
+}
+
+.third-line {
+    background-image: url(../images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top;
+    color: aliceblue;
+}
+
+.fourth-line {
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    color: aliceblue;
+}
+
+.fifth-line {
+    background-image: url(../images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    color: aliceblue;
+}
+
+.fifth-line:hover {
+    background-size: 70%;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    text-align: right;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    text-align: right;
+}
