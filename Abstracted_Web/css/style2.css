@@ -39,31 +39,43 @@ a {
 }
 
 #big {
-    margin-left: 32%;
-    margin-top: 100px;
     font-family: Brush Script MT;
     font-style: italic;
     font-weight: normal;
-    font-size: 72px;
-    line-height: 88px;
+    font-size: 60px;
+    line-height: 88px;  
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 70px;
+    left: 0;
+    right: 0;
 }
 
 #small {
-    margin-left: 42%;
-    margin-top: -30px;
     font-family: Brush Script MT;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 25px;  
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 130px;
+    left: 0;
+    right: 0;
 }
 
 #image1 {
-    width: 754px;
-    height: 447px;
-    margin-left: 23%;
+    margin-left: 19%;
     margin-top: 80px;
     background: #FFA9A9;
+    width: 754px;
+    height: 447px;
 }
 
 #first {
@@ -232,19 +244,113 @@ ul {
 }
 
 #orangeimg {
-    width: 913px;
+    width: 754px;
     height: 447px;
-    margin-left: 300px;
+    margin-left: 19%;
     margin-top: 20px;
     background: #FCC4A5;
 }
 
 #end {
-    margin-left: 50%;
-    margin-top: 100px;
     font-family: Brush Script MT;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 25px;  
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 1000px) {
+
+#image1 {
+    margin-left: 19%;
+    margin-top: 80px;
+    background: #FFA9A9;
+    width: 554px;
+    height: 347px;
+}
+
+#orangeimg {
+    margin-left: 19%;
+    margin-top: 30px;
+    width: 554px;
+    height: 347px;
+    background: #FCC4A5;
+}
+
+
+#first {
+    width: 110px;
+    height: 24px;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+}
+
+#second {
+    width: 350px;
+    height: 152px;
+    margin-left: 100px;
+    margin-top: 20px;
+  
+}
+
+#third {
+    width: 280px;
+    height: 152px;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+
+#fourth {
+    width: 280px;
+    height: 152px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+#name {
+    margin-left: 100px;
+}
+}
+
+@media (max-width: 700px) {
+#image1 {
+    margin-left: 19%;
+    margin-top: 80px;
+    background: #FFA9A9;
+    width: 400px;
+    height: 250px;
+}   
+
+#orangeimg {
+    margin-left: 19%;
+    margin-top: 10px;
+    width: 400px;
+    height: 250px;
+    background: #FCC4A5;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} 
+
+#box2 {
+    margin-left: 19%;
+    margin-top: -60px;
+}
+
+#name {
+    margin-top: 40px;
+    margin-left: 19%;
+}
+
 }

@@ -1,3 +1,4 @@
+
 body {
     background-color: #E6E4DF;
 }
@@ -10,6 +11,10 @@ nav {
     display: flex;
     justify-content: space-between;
 } 
+
+#c2 {
+    display: none;
+}
 
 a { 
     text-decoration: none;
@@ -58,124 +63,111 @@ ul :hover {
     opacity: 50%;
 }
 
+
 #red {
     background-color: #FFA9A9;
-    width: 90px;
+    width: 75px;
     height: 435px;
     margin-top: 84px;
 }
 
 #orange {
     background-color: #FCC4A5;
-    width: 90px;
+    width: 75px;
     height: 435px;
     margin-top: 109px;
 }
 
 #yellow {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #F9EEC5;
     margin-top: 141px;
 }
 
 #n4 {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #EDFCC3;
     margin-top: 109px;
 }
 
 #n5 {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #C1F7AE;
     margin-top: 84px;
 }
 
 #n6 {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #BCF8DB;
     margin-top: 141px;
 }
 
 #n7 {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #BAFFF7;
     margin-top: 109px;
 }
 
 #n8 {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #B8E7FB;
     margin-top: 84px;
 }
 
 #blue {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #B9C9F3;
     margin-top: 141px;
 }
 
 #purple {
-    width: 90px;
+    width: 75px;
     height: 435px;
     background-color: #DDCDFF;
     margin-top: 84px;
 }
 
 #click {
-    margin: 10px;
     color: #f78282;
 }
 
-#big {
+.big {
     font-family: Brush Script MT;
     font-style: italic;
     font-weight: normal;
     font-size: 72px;
     line-height: 88px;  
     position: absolute;
-    width: 354px;
-    height: 65px;
-    left: 543px;
-    top: 700px;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    
 }
 
 #small {
-    position: absolute;
-    width: 220px;
-    height: 24px;
-    left: 610px;
-    top: 770px;
     font-family: Brush Script MT;
     font-style: italic;
     font-size: 18px;
     line-height: 22px;
-}
-
-#button1 {
     position: absolute;
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    left: 682px;
-    top: 800px;
-    background: #EEBCC5;
-}
-
-#button2 {
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    left: 728px;
-    top: 800px;
-    background: #EEBCC5;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 45px;
+    left: 0;
+    right: 0;
 }
 
 #otherworks {
@@ -183,10 +175,130 @@ ul :hover {
     width: 121px;
     height: 24px;
     left: 11px;
-    top: 800px;  
+    bottom: 10px;  
     font-family: Brush Script MT;
     font-style: italic;
     font-weight: normal;
     font-size: 21px;
     line-height: 26px;
 }
+
+@media (max-width: 1032px) {
+    #click {
+        color: #f78282;
+        font-size: 20px;
+    }
+
+    #red {
+        background-color: #FFA9A9;
+        width: 40px;
+        height: 435px;
+        margin-top: 84px;
+    }
+    
+    #orange {
+        background-color: #FCC4A5;
+        width: 40px;
+        height: 435px;
+        margin-top: 109px;
+    }
+    
+    #yellow {
+        width: 40px;
+        height: 435px;
+        background-color: #F9EEC5;
+        margin-top: 141px;
+    }
+    
+    #n4 {
+        width: 40px;
+        height: 435px;
+        background-color: #EDFCC3;
+        margin-top: 109px;
+    }
+    
+    #n5 {
+        width: 40px;
+        height: 435px;
+        background-color: #C1F7AE;
+        margin-top: 84px;
+    }
+    
+    #n6 {
+        width: 40px;
+        height: 435px;
+        background-color: #BCF8DB;
+        margin-top: 141px;
+    }
+    
+    #n7 {
+        width: 40px;
+        height: 435px;
+        background-color: #BAFFF7;
+        margin-top: 109px;
+    }
+    
+    #n8 {
+        width: 40px;
+        height: 435px;
+        background-color: #B8E7FB;
+        margin-top: 84px;
+    }
+    
+    #blue {
+        width: 40px;
+        height: 435px;
+        background-color: #B9C9F3;
+        margin-top: 141px;
+    }
+    
+    #purple {
+        width: 40px;
+        height: 435px;
+        background-color: #DDCDFF;
+        margin-top: 84px;
+    }
+
+    #c2 {
+        display: grid;
+    }
+}
+
+@media (max-height: 784px) {
+    .big {
+        font-family: Brush Script MT;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 88px;  
+        margin: auto;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;   
+        position: fixed;
+        top: 55px;
+    }
+    
+    #small {
+        font-family: Brush Script MT;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 22px;
+        margin: auto;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        position: fixed;
+        top: 120px;
+    }
+    
+    #otherworks {
+        display: none;
+    }
+}
+
