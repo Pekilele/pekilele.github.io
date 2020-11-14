@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 900px;
+    height: 700px;
+    background-color: white;
+}
+.music_con{
+    width: 100px;
+    height: 100%;
+    background-color: #EAE0AD;
+    float: left;
+    position: relative;
+}
+.music_img{
+    width: 800px;
+    height: 100%;
+    background-color: #F6DBD4;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.music_con>div{
+    width: 100%;
+    height: 100px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    left: 0;
+    transition: all 0.6s;
+    z-index: 999;
+}
+.music_con>div>img{
+    width: 100%;
+    height: 100%;
+}
+.music_one{
+    background-color: #F262C4;
+}
+.music_two{
+    background-color: #DD5145;
+    top: 50px;
+}
+.music_three{
+    background-color: #C495E5;
+    top: 90px;
+}
+.music_four{
+    background-color: #AADE74;
+    top: 130px;
+}
+.music_five{
+    background-color: #646CCB;
+    top: 170px;
+}
+.music_con>div:hover{
+    left: 20px;
+    cursor: pointer;
+}
+.music_circular{
+    width: 480px;
+    height: 480px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/*.circular_box1,.circular_box2{*/
+/*    border: 2px solid #677676;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*    z-index: 999;*/
+/*    border-radius: 50%;*/
+/*}*/
+/*.circular_box1{*/
+/*    width: 70%;*/
+/*    height: 70%;*/
+/*}*/
+/*.circular_box2{*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+/*}*/
+.circular_img{
+    width: 150px;
+    height: 150px;
+    background-color: #AADE74;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circular_img>img{
+    width: 100%;
+    height: 100%;
+}
+.rotate{
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.music{
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.music_zhu{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-20deg);
+    transform-origin: top left ;
+    transition: all 0.6s;
+}
+.music_circular:hover{
+    cursor: pointer;
+}
