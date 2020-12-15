@@ -22,8 +22,8 @@
 	var balls = [];
 
 
-	//小球里面的文件 每个小球对应一个 直接在这里修改
-	var text = ['1Project','2Project','3Project','4Project','5Project','6Project','7Project',]
+	//小球里面的文件 每个小球对应一个
+	var text = ['"Wikibook"project','2Project','3Project','4Project','5Project','6Project','7Project',]
 
 	function createBalls() {
 		for (var i = 0; i < 7; i++) {
