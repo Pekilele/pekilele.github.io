@@ -1,0 +1,87 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2em;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b8c1ec+0,232946+50,b8c1ec+100 */
+    background: #b8c1ec; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b8c1ec 0%, #232946 50%, #b8c1ec 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #b8c1ec 0%,#232946 50%,#b8c1ec 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #b8c1ec 0%,#232946 50%,#b8c1ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c1ec', endColorstr='#b8c1ec',GradientType=0 ); /* IE6-9 */
+    ;
+  }
+  
+  h1 {
+    color: #fffffe;
+    font-size: 300%;
+  }
+
+  h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#eebbc3;
+  }
+
+  ul{
+    color: #b8c1ec;
+    font-family: monospace;
+    font-size: 150%;
+  }
+  
+  .b1{
+     text-align: left;
+     margin-top: -500px;
+     padding: 30%;
+     color: #b8c1ec;
+     font-family: monospace;
+  }
+
+  .p1{
+     margin-right: 50%;
+  }
+
+table{
+    margin:0 auto;
+    font-family: monospace;
+}
+
+td {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color:#fffffe;
+  }
+
+.first-row{
+    background-color:#eebbc3;
+}
+
+.second-column{
+    background-color:#8e9ce6;
+}
+
+.first-column{
+    background-color: #b8c1ec;
+}
+
+.link{
+  color:#eebbc3 ;
+  font-family: monospace;
+}
+
+.link :hover{
+  color:#8e9ce6;
+  font-family: monospace;
+}
+
+.box{
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover;
+  object-position: 30% 10%; 
+}
+
+.fi{
+  color:#b8c1ec;
+  font-family: monospace;
+  background-color:#232946;
+  width: 70%;
+}
+
