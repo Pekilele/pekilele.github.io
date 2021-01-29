@@ -29,6 +29,7 @@ body {
   .b1{
      text-align: left;
      margin-top: -500px;
+     margin-left: 50px;
      padding: 30%;
      color: #b8c1ec;
      font-family: monospace;
@@ -76,6 +77,10 @@ td {
   height: 300px; 
   object-fit: cover;
   object-position: 30% 10%; 
+  border: transparent;
+  border-radius: 50%;
+  shape-outside: ellipse();
+  float: left;
 }
 
 .fi{
