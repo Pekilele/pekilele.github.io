@@ -1,0 +1,98 @@
+body {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+1,999999+100,51bdec+70;Blue+3D+%23+16 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 1%, rgba(153,153,153,1) 100%, rgba(81,189,236,1) 70%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 1%,rgba(153,153,153,1) 100%,rgba(81,189,236,1) 70%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 1%,rgba(153,153,153,1) 100%,rgba(81,189,236,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#51bdec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Rockwell;
+    font-size: 100px;
+    line-height: 168px;
+    text-align: center;
+    color: #027ac4;
+}
+
+h2 {
+    display: block;
+    margin-left: 550px;
+    margin-top: -130px;
+    text-align: center;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 83px;
+    color: #000000;
+}
+
+.left {
+    position: absolute;
+    left: 20px;
+    width: 18%;
+    top: 20px;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    width: 18%;
+    top: 20px;
+}
+
+.pig {
+    top:0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    height: 360px;
+    border-radius: 60px;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 600px;
+    height: 580px;
+    position: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+h3 {
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    height: 33px;
+    top: 753px;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    transform: rotate(28.9deg);
+}
+
+.ins {
+    position: absolute;
+    right: 20px;
+    top: 770px;
+}
