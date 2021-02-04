@@ -1,0 +1,86 @@
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfcfc+0,e9d58c+100 */
+background: rgb(252,252,252); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(252,252,252,1) 0%, rgba(233,213,140,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,252,252,1) 0%,rgba(233,213,140,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(252,252,252,1) 0%,rgba(233,213,140,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e9d58c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h1 {
+    color: #C64E44;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: impetus;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: #435955;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Chalfont;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+p {
+    color:  #435955;
+    display: block;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    width: 600px;
+    height: 580px;
+    position: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: #C64E44;
+    display: block;
+    font-family: Chalfont;
+    font-size: 20px;
+    text-align: center;
+    width: 600px;
+    height: 580px;
+    position: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+}
+
+.sound {
+    margin-top: -400px;
+}
+
+.lego {
+    margin-top: -400px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 500px;
+}
+
+.video {
+    margin-top: -450px;
+}
+    
