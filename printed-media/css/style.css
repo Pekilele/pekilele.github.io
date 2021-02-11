@@ -1,0 +1,40 @@
+body {
+    background-color: #fec7d7;
+}
+h1 {
+    color:#a786df;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+    font-weight: thin;
+}
+
+.lin {
+    font-size: 40px;
+    margin-left: -150px;
+    color: aliceblue;
+    background-color: darkred;
+    width: 1000px;
+}
+
+.fan {
+    color: seashell;
+    background-color: rgb(11, 11, 71);
+    width: 600px;
+}
+
+.fu {
+    color: brown;
+}
+
+.for {
+    background-color: rgb(109, 99, 85);
+    width: 700px;
+    color: antiquewhite;
+}
