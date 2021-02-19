@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.con{
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s;
+}
+.con:hover{
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #00a67c,
+    0 0 35px #00a67c,
+    0 0 40px #00a67c,
+    0 0 50px #00a67c,
+    0 0 75px #00a67c;
+    cursor: pointer;
+}

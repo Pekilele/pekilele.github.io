@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/towPage.css">
+</head>
+<body>
+    <div class="con">
+        <audio src="./music/rain.mp3" class="mus" autoplay></audio>
+        <h2> You say that you love rain</h2>
+        <div class="con_img">
+            <img src="image/2021-02-19 下午4.40.15.png"/>
+        </div>
+    </div>
+    <div class="xyy">
+         NEXT--->
+    </div>
+<script>
+    var mus = document.querySelector(".mus")
+    document.onclick = function () {
+        mus.play()
+    }
+    var xyy = document.querySelector(".xyy");
+    xyy.onclick = function () {
+        window.location.href = "threePage.html"
+    }
+</script>
+</body>
+</html>

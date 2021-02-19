@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/towPage.css">
+</head>
+<body>
+<div class="con">
+    <audio src="./music/wind.mp3" class="mus" autoplay></audio>
+    <h2 class="texts">but you close your windows when wind blows</h2>
+    <div class="con_img">
+        <img src="image/2021-02-19 下午4.59.54.png" class="imgs"/>
+    </div>
+</div>
+<div class="xyy">
+    NEXT--->
+</div>
+<script>
+    var mus = document.querySelector(".mus")
+    document.onclick = function () {
+        mus.play()
+    }
+    var xyy = document.querySelector(".xyy");
+    var texts = document.querySelector(".texts");
+    var imgs = document.querySelector(".imgs");
+    text = 1
+    xyy.onclick = function () {
+
+        if (text ==1){
+            texts.innerHTML = "This is why I am afraid";
+            imgs.src = "image/2021-02-19 下午5.00.30.png";
+            text++;
+            return
+        }
+        if (text == 2){
+            texts.innerHTML = "You say that you love me too.";
+            imgs.src = "image/2021-02-19 下午5.00.48.png";
+            text++;
+            return
+        }
+        if (text == 3){
+            window.location.href = "sevenPage.html"
+        }
+    }
+</script>
+</body>
+</html>

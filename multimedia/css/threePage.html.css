@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.con{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.con>h2{
+    color: white;
+    text-align: center;
+    padding: 20px 0 ;
+}
+.xyy{
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    background-color: white;
+    padding: 5px;
+    color: black;
+}
+.xyy{
+    cursor: pointer;
+
+}
+video{
+    margin: auto;
+    text-align: center;
+}

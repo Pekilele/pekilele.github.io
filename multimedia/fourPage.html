@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fourPage.html.css">
+</head>
+<body>
+<div class="con">
+    <audio src="./music/sun.mp3" class="mus" autoplay></audio>
+    <h2 class="title"> You say that you love the sun</h2>
+    <div class="con_img">
+        <img src="image/2021-02-19 下午4.42.12.png" class="imgs"/>
+    </div>
+</div>
+<div class="xyy">
+    NEXT--->
+</div>
+<script>
+    var mus = document.querySelector(".mus")
+    document.onclick = function () {
+        mus.play()
+    }
+    var xyy = document.querySelector(".xyy");
+    var text = 1
+    var imgs = document.querySelector(".imgs")
+    var title = document.querySelector(".title")
+    xyy.onclick = function () {
+        if (text == 2){
+            window.location.href = "fivePage.html"
+        }else {
+            imgs.src = "image/2021-02-19 下午4.45.18.png";
+            title.innerHTML = "but you find a shadow spot when the sun shines."
+        }
+        text++
+    }
+</script>
+</body>
+</html>
