@@ -53,5 +53,5 @@ window.onresize = function(){
 };
 var con4_click = document.querySelector(".con4_click");
 con4_click.onclick = function () {
-    window.location.href = "homepage1.html"
+    window.location.href = "index.html"
 }
