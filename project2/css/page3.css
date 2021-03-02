@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Condor, din alternate;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    position: relative;
+}
+.con{
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0%;
+    transition: all 0.6s;
+}
+.con>div{
+    width: 100%;
+    height: 50%;
+}
+.con1{
+    position: relative;
+    background: linear-gradient(0deg, rgb(196, 195, 195),white,white, white);
+}
+.con1_text1 , .con1_text2{
+    width: 100%;
+    color: black;
+    position: absolute;
+    transition: all 0.3s;
+    font-family: Condor, din alternate;
+}
+.con1_text1{
+    top: 20px;
+    left: 150px;
+    text-align: left;
+}
+.con1_text2{
+    top: 20px;
+    right: 150px;
+    text-align: right;
+}
+.click_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3vw;
+    transition: all 0.3s;
+}
+.click_text:hover{
+    transform: translate(-50%,-50%) scale(1.2);
+    cursor: pointer;
+}
+.text1,.text2,.text3{
+    position: absolute;
+    font-size: 1.5vw;
+    display: none;
+}
+.text1{
+    top:60%;
+    color: rgb(173, 173, 173);
+}
+.text2{
+    top:70%;
+    left: 20%;
+    color: rgb(122, 122, 122);
+}
+.text3{
+    top:80%;
+    right: 0;
+    color: rgb(68, 68, 68);
+}
+.con2{
+    background: linear-gradient(0deg, black,white,white, white);
+    position: relative;
+}
+.con2_text{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: justify;
+    text-shadow: #111 0 0 5px;
+}
+.con2_ele{
+    position: absolute;
+    width: 55vw;
+    height: 55vw;
+    background-color: rgba(253,253,253,0.98);
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    border-radius: 100%;
+    opacity: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ele_text{
+    font-size: 20px;
+    transition: all 0.6s;
+    margin-top: -20%;
+}
+.ele_text:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.con2_text_text{
+    font-size: 20px;
+    text-shadow: 5px 5px 5px lightslategrey;
+    transition: all 0.6s;
+}
+.con2_text_text:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 420px){
+    .text1,.text2,.text3{
+        font-size: 4vw; 
+}
+.con1_text1{
+    left: -10px;
+}
+.con1_text2{
+    right: 20px;
+}
+.click_text{
+    font-size: 6vw;
+}
+.con2_ele{
+    position: absolute;
+    width: 140vw;
+    height: 140vw;
+    background-color: rgba(158, 158, 158, 0.98);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    border-radius: 100%;
+    opacity: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

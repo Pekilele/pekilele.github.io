@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Condor, monospace;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+}
+.con{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+.con>div{
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+.con1{
+    background-color: rgb(24, 24, 24);
+}
+.con1>p{
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.con2{
+    background-color: rgb(24, 24, 24);
+}
+.con2>p{
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.con3{
+    background: linear-gradient(-90deg, #F2F2F2, #181818);
+}
+.con3>p{
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.con4{
+    background: linear-gradient(-90deg,#ffffff, #f3f3f3);
+}
+.con4>p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3vw;
+    text-shadow: 5px 5px 5px #323232;
+}
+.con4>p:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 45px){
+    .con1{
+        background-color: black;
+    }
+    .con1>p{
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: justify;
+        width: 100%;
+    }
+    .con2{
+        background-color: black;
+    }
+    .con2>p{
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: justify;
+        width: 100%;
+    }
+    .con3{
+        background: linear-gradient(-90deg, #F2F2F2, #181818);
+    }
+    .con3>p{
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: justify;
+        width: 100%;
+    }
+}

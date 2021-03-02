@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    font-family: Condor, monospace;
+}
+.con{
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0%;
+    transition: all 0.3s;
+}
+.con>div{
+    width: 100%;
+    height: 50%;
+}
+.con1{
+    position: relative;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: justify;
+}
+.con2{
+    position: relative;
+    background: linear-gradient(-45deg, black,black, white);
+}
+.con2_text{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 40%;
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+    font-size: 18px;
+}
+.con2_text:hover{
+    transform: rotate(-45deg) scale(1.1);
+    cursor: pointer;
+}
+.con2_texts{
+    position: absolute;
+    width: 55%;
+    color: rgb(160, 160, 160);
+    right: 20px;
+    text-align: justify;
+    bottom: 20px;
+}
+.con2_texts_sm{
+    transition: all 0.3s;
+    color: lightslategrey;
+}
+.con2_texts_sm:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@media screen and (max-width: 420px){
+    .con2_text{
+        position: absolute;
+        color: black;
+        top: 20%;
+        transform: rotate(-45deg);
+        transition: all 0.3s;
+    }
+    .con2_text:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .con2_texts{
+        position: absolute;
+        color: white;
+        right: 20px;
+        text-align: justify;
+        bottom: 20px;
+        top: 55%;
+        width: 80%;
+}}
+.con2_texts_sm{
+    transition: all 0.3s;
+    color: lightslategrey;
+}
+
+h1 {
+	position: relative;
+	float: left;
+	color: #bebebe;
+	font-family: condor;
+	font-size: 40px;
+	margin:100px;
+}
+h1 span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #1d1f20;
+	width: 100%;
+	border-left: .1em solid transparent;
+	-webkit-animation: typing 3s steps(16) forwards,
+										 cursor 1s infinite;
+	animation: typing 3s steps(16) forwards,
+						 cursor 1s infinite;
+}
+/* Animation */
+@-webkit-keyframes typing{
+	from { width: 100%;}
+	to { width: 0;}
+}
+@-webkit-keyframes cursor{
+	50% { border-color: white;}
+}
+@keyframes typing{
+	from{ width: 100%;}
+	to{ width: 0;}
+}
+@keyframes cursor{
+	50% { border-color: white;}
+}
+
+.text {
+animation-name: fade-in;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-delay: 1s;
+animation-timing-function: ease-in;
+}
+@keyframes fade-in
+{
+	0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+
+@media screen and (max-width: 420px){
+    .text{
+        font-size: 4vw;
+        margin-top: 20%;
+    }
+    .text_sm{
+        font-size: 6vw;
+    }
+    h1 {
+        font-size: 20px; 
+    }}
