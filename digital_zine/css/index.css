@@ -212,6 +212,10 @@ button:hover{
      .title{
         margin: auto;
         position: unset;
+        margin-top: 50px;
+     }
+     .menu{
+         margin-top: -30px;
      }
 
 
