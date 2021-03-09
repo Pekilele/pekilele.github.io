@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Big Button</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../assignment3/css/style.css" />
+
+    <!--  Include the font awesome library to use symbols    -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <!-- import the webpage's javascript file -->
+    <script src="../assignment3/javascript/script.js" defer></script>
+  </head>
+  
+  <body>
+    <div class="button-shadow">
+      <div class="red-button" onclick="myFunction3()" value="Click the button">
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i
+            class="fa fa-power-off fa-stack-1x fa-inverse"
+            id="power-symbol"
+          ></i>
+        </span>
+      </div>
+      <div id="message" class="hide">
+    You won't see this message until after you clicked the button. Click again to hide me!
+      </div>
+      <button class="button2" type="button" onclick="myFunction2()">Change symbol color</button>
+    </div>
+    <button class="button3" type="button" onclick="myFunction()">Change background color</button>
+    <button class="button1" onclick="myFunction4()">Style your text</button>
+   
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
