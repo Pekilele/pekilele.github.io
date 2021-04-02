@@ -21,13 +21,13 @@ body {
 
 .song-title{
     color: rgb(243, 233, 245);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family:monospace;
 }
 
 .song-artist{
     color: rgb(222, 215, 238);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: monospace;
 }
 img{
