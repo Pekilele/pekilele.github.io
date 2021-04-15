@@ -65,12 +65,14 @@ function showSins() {
       'js-drug',
   ]
   var dh = ['dh1','dh2']
-  console.log(sins)
-  sins.forEach(sin => {
+  // console.log(sins)
+  localStorage.setItem('sins',JSON.stringify(sins))
+  sins.forEach((sin,index) => {
     // create container for each song
     var num = Math.floor(Math.random()*6);
     var sinContainer = document.createElement("div");
     sinContainer.classList.add('sin-container');
+    sinContainer.classList.add('sin'+index);
     sinContainer.classList.add(sin.fields.sort[0]);
     sinContainer.classList.add(num%2==1?'dh1':"dh2");
     sinContainer.setAttribute('id',sin.fields.image[0].url)
@@ -81,15 +83,26 @@ function showSins() {
   });
 }
 var imgs = document.querySelector(".imgs");
-document.onmouseover =  (event) =>  {
+// document.onmouseover =  (event) =>  {
+//   if (event.target.classList.contains('sin-container')){
+//     imgs.style.display = "block";
+//     imgs.children[0].src = event.target.id;
+//   }else {
+//     imgs.style.display = "none";
+//   }
+// }
+document.onclick = (event)=>{
   if (event.target.classList.contains('sin-container')){
-    // event.target.classList.remove('sin-container')
-    // console.log(event.target.id);
+    localStorage.setItem('index',event.target.classList[1].split('n')[1])
     imgs.style.display = "block";
+
     imgs.children[0].src = event.target.id;
   }else {
     imgs.style.display = "none";
   }
+}
+imgs.onclick = function(){
+  window.location = 'img.html'
 }
 // document.onmouseout = (event) => {
 //   if (event.target.classList.contains('cons')){
@@ -127,7 +140,7 @@ btn1.addEventListener('click',e=>{
       document.querySelector(".box").style.background = "#fff"
       arr.forEach((item,index)=>{
         item.classList.remove('white')
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.add('white')
         }
       })
@@ -135,7 +148,7 @@ btn1.addEventListener('click',e=>{
     }else{
       // document.querySelector(".box").style.background = "green"
       arr.forEach((item,index)=>{
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.remove('white')
         }
       })
@@ -145,6 +158,7 @@ btn1.addEventListener('click',e=>{
 })
 
 btn2.addEventListener('click',e=>{
+  
   let str = e.target.className.split(' ')[0].split('-')
   let arr = sinAll
   if(is_show){
@@ -157,7 +171,7 @@ btn2.addEventListener('click',e=>{
       document.querySelector(".box").style.background = "#fff"
       arr.forEach((item,index)=>{
         item.classList.remove('white')
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.add('white')
         }
       })
@@ -165,7 +179,7 @@ btn2.addEventListener('click',e=>{
     }else{
       // document.querySelector(".box").style.background = "green"
       arr.forEach((item,index)=>{
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.remove('white')
         }
       })
@@ -187,7 +201,7 @@ btn3.addEventListener('click',e=>{
       document.querySelector(".box").style.background = "#fff"
       arr.forEach((item,index)=>{
         item.classList.remove('white')
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.add('white')
         }
       })
@@ -195,7 +209,7 @@ btn3.addEventListener('click',e=>{
     }else{
       // document.querySelector(".box").style.background = "green"
       arr.forEach((item,index)=>{
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.remove('white')
         }
       })
@@ -217,7 +231,7 @@ btn4.addEventListener('click',e=>{
       document.querySelector(".box").style.background = "#fff"
       arr.forEach((item,index)=>{
         item.classList.remove('white')
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.add('white')
         }
       })
@@ -225,7 +239,7 @@ btn4.addEventListener('click',e=>{
     }else{
       // document.querySelector(".box").style.background = "green"
       arr.forEach((item,index)=>{
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.remove('white')
         }
       })
@@ -247,7 +261,7 @@ btn5.addEventListener('click',e=>{
       document.querySelector(".box").style.background = "#fff"
       arr.forEach((item,index)=>{
         item.classList.remove('white')
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.add('white')
         }
       })
@@ -255,7 +269,7 @@ btn5.addEventListener('click',e=>{
     }else{
       // document.querySelector(".box").style.background = "green"
       arr.forEach((item,index)=>{
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.remove('white')
         }
       })
@@ -277,7 +291,7 @@ btn6.addEventListener('click',e=>{
       document.querySelector(".box").style.background = "#fff"
       arr.forEach((item,index)=>{
         item.classList.remove('white')
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.add('white')
         }
       })
@@ -285,7 +299,7 @@ btn6.addEventListener('click',e=>{
     }else{
       // document.querySelector(".box").style.background = "green"
       arr.forEach((item,index)=>{
-        if(item.classList[1] != str[1]){
+        if(item.classList[2] != str[1]){
           item.classList.remove('white')
         }
       })
