@@ -103,7 +103,7 @@
         width: 80%;
     }
     .btn_text{
-        width: 80%;
+        width: 60%;
         margin: 2vw auto;
         display: block;
     }
@@ -113,6 +113,12 @@
 
     .title {
         font-size: 30px;
+    }
+    .mx{
+        width: 30px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px ;
     }
 }
 
