@@ -195,6 +195,10 @@
         cursor: pointer;
         text-align: center;
     }
+    .text1 {
+        font-size: 20px;
+
+    }
 }
 
 body {
