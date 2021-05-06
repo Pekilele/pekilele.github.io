@@ -312,4 +312,27 @@ img{
     .a,.i,.u{
         width: 11% !important;
     }
+    
+    .text{
+        /*position: absolute;*/
+        width: 100%;
+        /*left: 50%;*/
+        /*transform: translateX(-50%);*/
+        /*bottom: -15px;*/
+        color: white;
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+    }
+    .btns{
+        position: absolute;
+        bottom: 100px;
+        right: 15px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        padding: 1vw 0.8vw;
+        text-align: center;
+        cursor: pointer;
+    }
 }
