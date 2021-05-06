@@ -72,8 +72,12 @@ img{
 .top-right>div>img{
     width: 30%;
 }
-.a,.i,.u{
+.i,.u{
     width: 4% !important;
+}
+
+.a {
+    width: 7% !important;
 }
 
 .c,.z,.e{
@@ -230,6 +234,7 @@ img{
     display: none;
     line-height: 3vw;
     border-radius: 10px;
+    z-index: 999;
 }
 .wh:hover .wh-box{
     display: block;
@@ -248,6 +253,7 @@ img{
     border-radius: 10px;
     padding: 1vw;
     box-sizing: border-box;
+    z-index: 998;
 }
 .gt-title{
     width: 100%;
@@ -259,6 +265,8 @@ img{
     font-size: 30%;
     width: 100%;
     text-align: left;
+    position: relative;
+    z-index: 999;
 }
 
 .imgs>img{
@@ -295,5 +303,13 @@ img{
         transform: translateX(-0%);
         padding: 5vw;
         box-sizing: border-box;
+    }
+    .box-con>div{
+        position: absolute;
+        width: 30%;
+    }
+
+    .a,.i,.u{
+        width: 11% !important;
     }
 }
