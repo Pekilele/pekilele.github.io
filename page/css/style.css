@@ -34,7 +34,7 @@ img{
 .top-left>button{
     background-color: #ffffff;
     color: black;
-    font-size: 3vw;
+    font-size: 2vw;
     border-radius: 10px;
 }
 .top-center{
@@ -57,6 +57,9 @@ img{
     color: white;
     text-indent: 1.85vw;
     font-size: 3vw;
+}
+.ref {
+    font-family: monospace;
 }
 .top-right{
     width: 30%;
@@ -209,6 +212,7 @@ img{
     font-size: 1.3vw;
     margin: auto;
     text-align: center;
+    font-family: monospace;
 }
 .btns{
     position: absolute;
@@ -220,6 +224,8 @@ img{
     padding: 1vw 0.8vw;
     text-align: center;
     cursor: pointer;
+    font-family: monospace;
+    font-size: 2vw;
 }
 .top-right>div{
     position: relative;
@@ -235,6 +241,7 @@ img{
     line-height: 3vw;
     border-radius: 10px;
     z-index: 999;
+    font-family: monospace;
 }
 .wh:hover .wh-box{
     display: block;
@@ -260,6 +267,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: monospace;
 }
 .gt-text{
     font-size: 30%;
@@ -267,6 +275,7 @@ img{
     text-align: left;
     position: relative;
     z-index: 999;
+    font-family: monospace;
 }
 
 .imgs>img{
